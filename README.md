@@ -7,7 +7,7 @@ ORBVisualTimer is a highly customizable timer view for iOS. Currently it only ha
 ## Usage
 
 ### Create timer
-Using `ORBVisualTimerBar` fabric:
+Using `ORBVisualTimer` fabric:
 ```objective-c
 /* Required minimum */
 ORBVisualTimerBar *barTimer = (ORBVisualTimerBar *)[ORBVisualTimer timerWithStyle:ORBVisualTimerStyleBar frame:myFrame timeRemaining:8.0f];
