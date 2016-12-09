@@ -45,12 +45,12 @@
         
         barTimer.backgroundViewColor = [UIColor darkGrayColor];
         barTimer.backgroundViewCornerRadius = 20.0f;
-        //barTimer.timerShapeInactiveColor = [UIColor whiteColor];
+        barTimer.timerShapeInactiveColor = [UIColor lightGrayColor];
         barTimer.timerShapeActiveColor = [UIColor orangeColor];
         barTimer.timerLabelColor = [UIColor orangeColor];
-        //barTimer.showTimerLabel = NO;
-        //barTimer.autohideWhenFired = YES;
-        //barTimer.barCapStyle = kCALineCapSquare;
+        barTimer.showTimerLabel = YES;
+        barTimer.autohideWhenFired = NO;
+        barTimer.barCapStyle = kCALineCapSquare;
         barTimer.barThickness = 100.0f;
         barTimer.barPadding = 60.0f;
         
@@ -91,6 +91,7 @@
                                      maxBarHeight);
         
         ORBVisualTimerBar *barTimer = (ORBVisualTimerBar *)[ORBVisualTimer timerWithStyle:ORBVisualTimerStyleBar frame:barFrame timeRemaining:(5.0f * (i+1))];
+        
         barTimer.delegate = self;
         
         barTimer.tag = i;
