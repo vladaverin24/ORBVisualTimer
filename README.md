@@ -230,5 +230,8 @@ You can use **readonly** property `timeRemaining` to track every second of timer
 ## ToDo's
 + Extend with other timer styles;
 
+## Contributions
+Pull requests are welcome!
+
 ## License
 Distributed under the permissive zlib License
