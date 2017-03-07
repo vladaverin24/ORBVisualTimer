@@ -2,7 +2,7 @@
 
 ORBVisualTimer is a highly customizable timer view for iOS. Currently it only has Bar style implementation, but extendability was kept in mind. New styles are coming.
 
-![demo](Screenshots/bar_demo.gif)
+<img src="Screenshots/bars.jpg" width="300"> ![demo](Screenshots/flow_w300.gif)
 
 ## Usage
 
