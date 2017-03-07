@@ -18,6 +18,9 @@
 		FF518ED91DEE0E880050178B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF518ED71DEE0E880050178B /* LaunchScreen.storyboard */; };
 		FF518EE41DEE0E880050178B /* ORBVisualTimerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF518EE31DEE0E880050178B /* ORBVisualTimerDemoUITests.m */; };
 		FF518EF11DEE0E9F0050178B /* ORBVisualTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF518EF01DEE0E9F0050178B /* ORBVisualTimer.m */; };
+		FF6877971E6F5DBC00475A58 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6877941E6F5DBC00475A58 /* 1.png */; };
+		FF6877981E6F5DBC00475A58 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF6877951E6F5DBC00475A58 /* 2.jpg */; };
+		FF6877991E6F5DBC00475A58 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF6877961E6F5DBC00475A58 /* 3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		FF518EE51DEE0E880050178B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF518EEF1DEE0E9F0050178B /* ORBVisualTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORBVisualTimer.h; sourceTree = "<group>"; };
 		FF518EF01DEE0E9F0050178B /* ORBVisualTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORBVisualTimer.m; sourceTree = "<group>"; };
+		FF6877941E6F5DBC00475A58 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		FF6877951E6F5DBC00475A58 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		FF6877961E6F5DBC00475A58 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,9 @@
 				FF4C866C1DEEC9E2003F9E4C /* pattern_1@3x.png */,
 				FF4C866D1DEEC9E2003F9E4C /* pattern_2@3x.png */,
 				FF4C866E1DEEC9E2003F9E4C /* pattern_3@3x.png */,
+				FF6877941E6F5DBC00475A58 /* 1.png */,
+				FF6877951E6F5DBC00475A58 /* 2.jpg */,
+				FF6877961E6F5DBC00475A58 /* 3.jpg */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -191,7 +200,8 @@
 				TargetAttributes = {
 					FF518EC51DEE0E880050178B = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = T55G7JLVK5;
+						ProvisioningStyle = Automatic;
 					};
 					FF518EDE1DEE0E880050178B = {
 						CreatedOnToolsVersion = 8.1;
@@ -225,12 +235,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF6877991E6F5DBC00475A58 /* 3.jpg in Resources */,
 				FF4C86711DEEC9E2003F9E4C /* pattern_3@3x.png in Resources */,
 				FF4C86701DEEC9E2003F9E4C /* pattern_2@3x.png in Resources */,
 				FF4C866F1DEEC9E2003F9E4C /* pattern_1@3x.png in Resources */,
 				FF518ED91DEE0E880050178B /* LaunchScreen.storyboard in Resources */,
 				FF518ED61DEE0E880050178B /* Assets.xcassets in Resources */,
 				FF518ED41DEE0E880050178B /* Main.storyboard in Resources */,
+				FF6877981E6F5DBC00475A58 /* 2.jpg in Resources */,
+				FF6877971E6F5DBC00475A58 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,7 +400,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T55G7JLVK5;
 				INFOPLIST_FILE = ORBVisualTimerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -400,7 +414,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = T55G7JLVK5;
 				INFOPLIST_FILE = ORBVisualTimerDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
