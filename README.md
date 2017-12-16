@@ -230,8 +230,16 @@ You can use **readonly** property `timeRemaining` to track every second of timer
 ## ToDo's
 + Extend with other timer styles;
 
-## Contributions
-Pull requests are welcome!
+## Contact Author
+Feel free to send pull requests or propose changes.
+
+Email: [hello@vladaverin.me](mailto:?to=hello@vladaverin.me)
+
+Reach me on [Facebook](https://facebook.com/vaverin).
+
+Need help integrating it? [![Contact me on Codementor](https://cdn.codementor.io/badges/contact_me_github.svg)](https://www.codementor.io/vladaverin24?utm_source=github&utm_medium=button&utm_term=vladaverin24&utm_campaign=github)
+
+Or check other ways to contact me at [vladaverin.me](http://vladaverin.me).
 
 ## License
-Distributed under the permissive zlib License
+ORBVisualTimer is released under the permissive zlib License. See the [LICENSE](https://raw.githubusercontent.com/vladaverin24/ORBVisualTimer/master/LICENSE.md) file.
